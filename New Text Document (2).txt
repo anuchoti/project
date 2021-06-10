@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8"/>
+<meta name="author" content="ANUSHA"/>
+<meta name="description" content="SELECTION HOUSE"/>
+<meta name="keywords" content="GIVE YOUR KEYWORDS FOR"/>
+<title>ANU-HOUSE</title>
+<style>
+img {
+  display: inline-block;
+}
+</style>
+
+<link rel="stylesheet" type="text/css" href="assets/css/style11.css" />
+<!-- Start WOWSlider.com HEAD section -->
+<link rel="stylesheet" type="text/css" href="engine1/style.css" />
+<script type="text/javascript" src="engine1/jquery.js"></script>
+<!-- End WOWSlider.com HEAD section --></head>
+<body data-spy="scroll" data-offset="0" data-target="#navbar-main" >
+<header class="header">
+<div class="wrapper">
+<h1><img src="images/anu.jpg" width="65" height="65" alt="" >HOUSE RENTAL SYSTEM</h1>
+</div>
+
+</header>
+<nav class="menu">
+<div class="wrapper">
+<ul>
+<a href="#"><li>HOME</li></a>
+
+<a href="about.html"><li>ABOUT US</li></a>
+
+<a class="nav-link" href="realestate-master/landlord_reg.php">SELLER-REGISTRATION</a></center></h5>
+<a class="nav-link" href="realestate-master/landlordlogin.php">SELLER-LOGIN</a></center></h5>
+
+<a class="nav-link" href="realestate-master/index.php">BUYER-REGISTER</a></center></h5>
+
+<a href="realestate-master/adminlogin.php"><li>ADMIN</li></a>
+</ul>
+</div>
+
+</nav>
+<div class="slider">
+<div class="wrapper">
+<!-- Start WOWSlider.com BODY section -->
+<div id="wowslider-container1">
+<div class="ws_images"><ul>
+		<li><img src="data1/images/anu2.jpg" alt="" title="" id="wows1_0"/></li>
+		<li><img src="data1/images/lux3.jpg" alt="" title="" id="wows1_1"/></li>
+		<li><a href="http://wowslider.net"><img src="data1/images/anu4.jpg" alt="jquery image carousel" title="" id="wows1_2"/></a></li>
+		<li><img src="data1/images/house1.jpg" alt="" title="" id="wows1_3"/></li>
+	</ul></div>
+	<div class="ws_bullets"><div>
+		<a href="#" title=""><span><img src="data1/tooltips/anu2.jpg" alt=""/>1</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/lux3.jpg" alt=""/>2</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/anu4.jpg" alt=""/>3</span></a>
+		<a href="#" title=""><span><img src="data1/tooltips/house1.jpg" alt=""/>4</span></a>
+	</div></div><div class="ws_script" style="position:absolute;left:-99%"><a href="http://wowslider.net">wow slider</a> by WOWSlider.com v9.0</div>
+<div class="ws_shadow"></div>
+</div>	
+<script type="text/javascript" src="engine1/wowslider.js"></script>
+<script type="text/javascript" src="engine1/script.js"></script>
+<!-- End WOWSlider.com BODY section --></div>
+</div>
+<nav class="menu">
+<div class="divi">
+
+
+<center><ul>
+
+
+<a href="index.php"><li><img src="images\location.jfif"><button type="button" class="btn-book"><h3>SEARCH BASED ON bhk,place,rent..</h3></li></button></a>
+<a href="anusearch1.php"><li><img src="images\cost.jfif"><button type="button" class="btn-book"><h3>SEARCH BASED ON COST</h3></li></button></a>
+
+
+</ul></center>
+</div>
+</nav>
+
+<div class="container" id="contact" name="contact">
+			<div class="row">
+			<br>
+				<h1 class="centered">THANKS FOR VISITING US</h1>
+				<hr>
+				<br>
+				<br>
+				<div class="col-lg-4">
+					<h3>Our Contact Information</h3>
+					<p><span class="icon icon-home"></span>Address 972-60200 , MERU, KENYA<br/>
+						<span class="icon icon-phone"></span> 0715096908 <br/>
+						<span class="icon icon-mobile"></span> 0715096908 <br/>
+						<span class="icon icon-envelop"></span> <a href="#"> mtkenyarealestate.co.ke</a> <br/>
+						<span class="icon icon-twitter"></span> <a href="#">  Visit Us On Twitter</a> <br/>
+						<span class="icon icon-facebook"></span> <a href="http://www.facebook.com/mtkenyarealestate/"> Visit Us On facebook</a>
+					</p>
+				</div><!-- col -->
+				
+				<div class="col-lg-4">
+					<h3>Reach Us Now</h3>
+					<p>Send us a message now and see your dream come true</p>
+					<p>
+						<form class="form-horizontal" role="form" action="sendmessage.php" method="POST">
+							 <div class="form-group">
+						    <label for="name" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-10">
+						      <input type="text" class="form-control" id="text1" name="name" placeholder="Enter Your Name">
+						    </div>
+						 </div>
+						     <div class="form-group">
+						    <label for="email" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-10">
+						      <input type="email" class="form-control" id="text1" name="email" placeholder="Enter Your Email">
+						    </div>
+						  </div>
+                              
+                               <div class="form-group">
+						    <label for="phone" class="col-lg-4 control-label"></label>
+						    <div class="col-lg-10">
+						      <input type="text" class="form-control" id="text1" name="phone" placeholder="Enter Your Phone Number">
+						    </div>
+						  </div>
+
+						  <div class="form-group">
+                                        <textarea name="message" id="message" required="required" class="form-control" rows="8" name="message" placeholder="Your Message"></textarea>
+                                    </div>
+						
+						 
+						  <div class="form-group">
+						    <div class="col-lg-10">
+						      <button type="submit" name="submit" class="btn btn-success">SEND</button>
+						    </div>
+						  </div>
+
+					   </form><!-- form -->
+					</p>
+				</div><!-- col -->
+				
+				<div class="col-lg-4">
+					<h3>We Are Always At Your Service</h3>
+					<p>At Mt. Kenya Real Estate Developers Ltd. , We are committed to serve you better.</p>
+				</div><!-- col -->
+
+			</div><!-- row -->
+
+
+		
+		</div><!-- container -->
+
+		
+			
+</body>
+</html>
